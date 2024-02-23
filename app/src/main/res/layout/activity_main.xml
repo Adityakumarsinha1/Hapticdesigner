@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Time in MiliSeconds 15000"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:digits="0123456789,"
+        android:id="@+id/time"
+        android:hint="1000 for 1 Second"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Amplitude"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="150"
+        android:inputType="number"
+        android:digits="0123456789,"
+        android:id="@+id/amplitude"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/vibrateButton"
+        android:text="Play"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+</LinearLayout>
